@@ -1,27 +1,24 @@
+import React from 'react';
+import { BrowserRouter, Route, Link } from 'react-router-dom';
 
-import React from 'react'
-import { BrowserRouter, Route, Link } from 'react-router-dom'
- 
-import AppComponent from './components/App'
-import VComponent from './components/V'
+import AppComponent from './components/App';
+import VComponent from './components/V';
 
- 
-function FirstRoute () {
-    return (
-        <BrowserRouter>
-            <div>
-            <nav>
-                    <Link to="/Dci">Home</Link>
-                    <Link to="/contacts">Contacts</Link>
-            </nav>
-                <h1>pierwszy rout!</h1>
- 
-                <Route path="/dCi" component={AppComponent}></Route>
-                <Route path="/V" component={VComponent}></Route>
-            
-            </div>
-        </BrowserRouter>
-    )
+function FirstRoute() {
+  return (
+    <BrowserRouter>
+      <div>
+        <nav>
+          <Link to="/Dci">Home</Link>
+          <Link to="/contacts">Contacts</Link>
+        </nav>
+        <h1>first rout!</h1>
+
+        <Route path="/dCi" component={AppComponent}></Route>
+        <Route path="/V" component={VComponent}></Route>
+      </div>
+    </BrowserRouter>
+  );
 }
- 
-export default FirstRoute
+
+export default FirstRoute;
