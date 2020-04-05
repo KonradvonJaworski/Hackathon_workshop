@@ -3,17 +3,17 @@ This repo is for hackathon. It is an application written in React.JS
 
 Team :
 
-Małgorzata Iwańska - UX Designer&Researcher
+Małgorzata Iwańska - UX Designer&Researcher,
 
-Ola Wolska - feature
+Ola Wolska - UX/UI,
 
-Monia Pazdyk - UX/UI
+Monia Pazdyk - Graphic Designer,
 
-Patryk - Designer
+Patryk - Designer,
 
 Konrad Jaworski - Frontend DEV.
 
-// unfinished project !
+// unfinished project ! :)
 
 npm start
 Runs the app in the development mode.
